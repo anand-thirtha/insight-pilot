@@ -1,1 +1,0 @@
-grok_api_key = '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'
