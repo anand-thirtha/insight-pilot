@@ -8,7 +8,6 @@ logging.basicConfig(
     datefmt= '%Y-%m-%d %H:%M:%S'
 )
 
-
 def generate_sample_data(start_date: str,
                          num_of_days: int):
     
@@ -30,7 +29,7 @@ def generate_sample_data(start_date: str,
     }
 
     df = pd.DataFrame(data)
-    df.to_csv('datadata.csv', index=False)
+    df.to_csv('data.csv', index=False)
     logging.info('Sample data saved as data.csv in src/ folder!')
 
 
